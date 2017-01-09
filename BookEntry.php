@@ -50,7 +50,7 @@
 
     // Perform the INSERT
     if (mysqli_query($db, $insert)) print("<p> The book has been entered successfully. </p>");
-    else print("<p> Unfortunately, this book can not be entered. Please review book entry instructions or contact a Mathtops moderator.</p>");
+    else print("<p> Unfortunately, this book can not be entered. Please review book entry instructions or contact a MathBooks moderator.</p>");
 
     // End
     mysqli_close($db);
